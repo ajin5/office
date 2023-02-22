@@ -1,0 +1,290 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Chinninambi Website</title>
+	<meta name="description" content="Stability - Responsive HTML5 Template - 1.8.1">
+	<meta name="author" content="http://themeforest.net/user/dan_fisher">
+
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Google Web Fonts
+	================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Anton|Muli:300,400,400italic,300italic|Oswald' rel='stylesheet' type='text/css'>
+
+	<!-- CSS
+	================================================== -->
+	    <!--font-awesome-->
+		<link href="{% static 'css/fonts/font-awesome/css/font-awesome.css' %}" rel="stylesheet" type="text/css">
+	<!-- Base + Vendors CSS -->
+	<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    
+	<link rel="stylesheet" href="{% static 'vendor/owl-carousel/owl.carousel.css' %}" media="screen">
+	<link rel="stylesheet" href="{% static 'vendor/owl-carousel/owl.theme.css' %}" media="screen">
+	<link rel="stylesheet" href="{% static 'vendor/magnific-popup/magnific-popup.css' %}" media="screen">
+	<link rel="stylesheet" href="{% static 'vendor/mediaelement/mediaelementplayer.css' %}" />
+	<link rel="stylesheet" href="{% static 'vendor/rs-plugin/css/settings.css' %}" media="screen">
+	<link rel="stylesheet" href="{% static 'vendor/circliful/css/jquery.circliful.css' %}" />
+
+
+	<!-- Theme CSS-->
+	<link rel="stylesheet" href="{% static 'css/theme.css' %}">
+	<link rel="stylesheet" href="{% static 'css/theme-elements.css' %}">
+	<link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
+
+	<!-- Skin CSS -->
+	<link rel="stylesheet" href="{% static 'css/skins/red.css' %}">
+
+	<!-- Custom CSS-->
+	<link rel="stylesheet" href="{% static 'css/custom.css' %}">
+
+	<!-- Head Libs -->
+	<script src="{% static 'vendor/modernizr.js' %}"></script>
+
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="vendor/rs-plugin/css/settings-ie8.css" media="screen">
+		<script src="vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!--[if IE]>
+		<link rel="stylesheet" href="css/ie.css">
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="{% static 'images/favicon.ico' %}">
+	<link rel="apple-touch-icon" href="{% static 'images/apple-touch-icon.png' %}">
+	<link rel="apple-touch-icon" sizes="72x72" href="{% static 'images/apple-touch-icon-72x72.png' %}">
+	<link rel="apple-touch-icon" sizes="114x114" href="{% static 'images/apple-touch-icon-114x114.png' %}">
+	<link rel="apple-touch-icon" sizes="144x144" href="{% static 'images/apple-touch-icon-144x144.png' %}">
+
+</head>
+			<!-- Social Links -->
+			<div class="social-links-section social-links-section__dark icons-rounded">
+				<div class="container">
+					<ul>
+						<li>
+							<a href="#"><i class="fa fa-facebook fa-lg"></i>
+								<h5>Facebook</h5>
+							</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-twitter fa-lg"></i>
+								<h5>Twitter</h5>
+							</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-instagram fa-lg"></i>
+                                
+								<h5>Instagram</h5>
+							</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-linkedin fa-lg"></i>
+								<h5>LinkedIn</h5>
+							</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-pinterest fa-lg"></i>
+								<h5>Pinterest</h5>
+							</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-youtube fa-lg"></i>
+                                <h5>Youtube</h5>
+								
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Social Links / End -->
+
+			<!-- Footer -->
+			<footer class="footer" id="footer">
+				<div class="footer-widgets">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6 col-md-3">
+								<!-- Widget :: Latest Posts -->
+								<!-- <div class="latest-posts-widget widget widget__footer">
+									<h3 class="widget-title">Latest Posts</h3>
+									<div class="widget-content">
+										<ul class="latest-posts-list">
+											<li>
+												<figure class="thumbnail"><a href="#"><img src="http://placehold.it/60x60"></a></figure>
+												<span class="date">24/07/2013</span>
+												<h5 class="title"><a href="#">Duis placerat rhoncus arcu, sit amet aliquam leo</a></h5>
+											</li>
+											<li>
+												<figure class="thumbnail"><a href="#"><img src="http://placehold.it/60x60"></a></figure>
+												<span class="date">16/07/2013</span>
+												<h5 class="title"><a href="#">Mauris in arcu aliq, elementum nibh nec</a></h5>
+											</li>
+											<li>
+												<figure class="thumbnail"><a href="#"><img src="http://placehold.it/60x60"></a></figure>
+												<span class="date">14/07/2013</span>
+												<h5 class="title"><a href="#">Vestibulum in ligula rutrum faucibus interdum</a></h5>
+											</li>
+										</ul>
+									</div>
+								</div> -->
+								<!-- /Widget :: Latest Posts -->
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<!-- Widget :: Contacts Info -->
+								<div class="contacts-widget widget widget__footer">
+									<h3 class="widget-title">Contact Us</h3>
+									<div class="widget-content">
+										<ul class="contacts-info-list">
+											<li>
+												<i class="fa fa-map-marker"></i>
+												<div class="info-item">
+													Chinninambi
+												</div>
+											</li>
+											<li>
+												<i class="fa fa-phone"></i>
+												<div class="info-item">
+													9087656721<br>
+													8965453233
+												</div>
+											</li>
+											<li>
+												<i class="fa fa-envelope"></i>
+												<span class="info-item">
+													<a href="mailto:info@dan-fisher.com">info@chinninambi.com</a>
+												</span>
+											</li>
+											<li>
+												<i class="fa fa-skype"></i>
+												<div class="info-item">
+													<a href="#">arjune@chinninambi</a><br>
+													<a href="#">admin@chinninambi.com</a>
+												</div>
+											</li>
+											<li>
+												<i class="fa fa-clock-o"></i>
+												<div class="info-item">
+													Monday - Friday 9:00 - 21:00
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<!-- /Widget :: Contacts Info -->
+							</div>
+
+							<div class="clearfix visible-sm"></div>
+
+							<div class="col-sm-6 col-md-3">
+								<!-- Widget :: Categories -->
+								 <div class="widget_categories widget widget__footer">
+									<h3 class="widget-title">Brands</h3>
+									<div class="widget-content">
+										<ul>
+											<li><a href="#">Nivaran90</a></li>
+											<li><a href="#">Memory Vita</a> </li>
+											<li><a href="#">Nivar-X</a> </li>
+											<li><a href="#">velvette</a> </li>
+											<li><a href="#">Sujatha biotech</a> </li>
+											<li><a href="#">CNE</a> </li>
+											<li><a href="#">Memory plus</a> </li>
+										</ul>
+									</div>
+								</div> 
+								<!-- /Widget :: Categories -->
+							</div>
+							<!-- <div class="col-sm-6 col-md-3">
+								 Widget :: Flickr -->
+								<!-- <div class="widget_flickr widget widget__footer">
+									<h3 class="widget-title">Flickr</h3>
+									<div class="widget-content">
+										 Flickr images will appear here -->
+										<!-- <ul id="flickr" class="flickr-feed"></ul>
+									</div>
+								</div> -->
+								<!-- /Widget :: Flickr -->
+							</div> 
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6 col-md-4">
+								Copyright &copy; 2023  <a href="index.html">Chinninambi</a> &nbsp;| &nbsp;All Rights Reserved
+							</div>
+							<div class="col-sm-6 col-md-8">
+								<div class="social-links-wrapper">
+									<span class="social-links-txt">Connect with us</span>
+									<ul class="social-links social-links__dark">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+										<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+										<li><a href="#"><i class="fa fa-rss"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- Footer / End -->
+
+    	<!-- Javascript Files
+	================================================== -->
+	<script src="{% static 'vendor/jquery-1.11.0.min.js' %}"></script>
+	<script src="{% static 'vendor/jquery-migrate-1.2.1.min.js' %}"></script>
+	<script src="{% static 'vendor/bootstrap.min.js' %}"></script>
+	<script src="{% static 'vendor/headhesive.min.js' %}"></script>
+	<script src="{% static 'vendor/fhmm.js' %}"></script>
+	<script src="{% static 'vendor/jquery.flickrfeed.js' %}"></script>
+	<script src="{% static 'vendor/isotope/' %}"></script>
+	<script src="{% static 'vendor/isotope/jquery.imagesloaded.min.js' %}"></script>
+	<script src="{% static 'vendor/magnific-popup/jquery.magnific-popup.js' %}"></script>
+	<script src="{% static 'vendor/owl-carousel/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'vendor/jquery.fitvids.js' %}"></script>
+	<script src="{% static 'vendor/jquery.appear.js' %}"></script>
+	<script src="{% static 'vendor/jquery.stellar.min.js' %}"></script>
+	<script src="{% static 'vendor/snap.svg-min.js' %}"></script>
+	<script src="{% static 'vendor/mediaelement/mediaelement-and-player.min.js' %}"></script>
+	<script src="{% static 'vendor/jquery.twitter.js' %}"></script>
+	<script src="{% static 'vendor/circliful/js/jquery.circliful.min.js' %}"></script>
+
+	<script src="{% static 'js/custom.js' %}"></script>
+
+
+	<!-- jQuery REVOLUTION Slider  -->
+	<script src="{% static 'vendor/rs-plugin/js/jquery.themepunch.tools.min.js' %}"></script>
+	<script src="{% static 'vendor/rs-plugin/js/jquery.themepunch.revolution.min.js' %}"></script>
+
+	<script>
+		jQuery(document).ready(function() {
+			jQuery('.tp-banner').revolution({
+				dottedOverlay:"filled",
+				delay:6000,
+				startwidth:1140,
+				startheight:556,
+				hideThumbs:10,
+				fullWidth:"on",
+				forceFullWidth:"off",
+				hideCaptionAtLimit:480,
+				//navigationType: "none",
+				soloArrowLeftHOffset:20,
+				soloArrowRightHOffset:20,
+				navigationType:"bullet",
+				navigationArrows:"solo", // nexttobullets, solo (old name verticalcentered), none
+				navigationStyle:"round"  // round, square, navbar, round-old, square-old, navbar-old
+			});
+	   });
+	</script>
