@@ -131,5 +131,5 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static',
 ]
 
-STATIC_ROOT = 'https://office-production.up.railway.app' /'assets'
+STATIC_ROOT = BASE_DIR /'assets'
 
