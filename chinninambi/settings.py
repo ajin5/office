@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-#)$f3wo0dn_4p45o4ceq9e5e+_e-htif!ocy-#9&o*v%ze+zh('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 ALLOWED_HOSTS = ['*']
@@ -81,11 +81,7 @@ WSGI_APPLICATION = 'chinninambi.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'RZiJ1HFDKkubnQd5A0O2',
-        'HOST': 'containers-us-west-62.railway.app',
-        'PORT': '6011',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
