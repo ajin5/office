@@ -80,8 +80,12 @@ WSGI_APPLICATION = 'chinninambi.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'RZiJ1HFDKkubnQd5A0O2',
+        'HOST': 'containers-us-west-62.railway.app',
+        'PORT': '6011',
     }
 }
 
